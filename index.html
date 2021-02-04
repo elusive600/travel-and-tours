@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* inter-regular - latin */
+        @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('fonts/inter-v3-latin-regular.eot'); /* IE9 Compat Modes */
+        src: local(''),
+            url('fonts/inter-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('fonts/inter-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+            url('fonts/inter-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
+            url('fonts/inter-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('fonts/inter-v3-latin-regular.svg#Inter') format('svg'); /* Legacy iOS */
+        }
+        /* inter-600 - latin */
+        @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url('fonts/inter-v3-latin-600.eot'); /* IE9 Compat Modes */
+        src: local(''),
+            url('fonts/inter-v3-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('fonts/inter-v3-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+            url('fonts/inter-v3-latin-600.woff') format('woff'), /* Modern Browsers */
+            url('fonts/inter-v3-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('fonts/inter-v3-latin-600.svg#Inter') format('svg'); /* Legacy iOS */
+        }
+        /* inter-500 - latin */
+        @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url('fonts/inter-v3-latin-500.eot'); /* IE9 Compat Modes */
+        src: local(''),
+            url('fonts/inter-v3-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('fonts/inter-v3-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+            url('fonts/inter-v3-latin-500.woff') format('woff'), /* Modern Browsers */
+            url('fonts/inter-v3-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('fonts/inter-v3-latin-500.svg#Inter') format('svg'); /* Legacy iOS */
+        }
+        /* playfair-display-700 - latin */
+        @font-face {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url('fonts/playfair-display-v22-latin-700.eot'); /* IE9 Compat Modes */
+        src: local(''),
+            url('fonts/playfair-display-v22-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('fonts/playfair-display-v22-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+            url('fonts/playfair-display-v22-latin-700.woff') format('woff'), /* Modern Browsers */
+            url('fonts/playfair-display-v22-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('fonts/playfair-display-v22-latin-700.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
+        }
+        /* mulish-300 - latin */
+        @font-face {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url('fonts/mulish-v3-latin-300.eot'); /* IE9 Compat Modes */
+        src: local(''),
+            url('fonts/mulish-v3-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('fonts/mulish-v3-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+            url('fonts/mulish-v3-latin-300.woff') format('woff'), /* Modern Browsers */
+            url('fonts/mulish-v3-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('fonts/mulish-v3-latin-300.svg#Mulish') format('svg'); /* Legacy iOS */
+        }
+        /* mulish-700 - latin */
+        @font-face {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url('fonts/mulish-v3-latin-700.eot'); /* IE9 Compat Modes */
+        src: local(''),
+            url('fonts/mulish-v3-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('fonts/mulish-v3-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+            url('fonts/mulish-v3-latin-700.woff') format('woff'), /* Modern Browsers */
+            url('fonts/mulish-v3-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('fonts/mulish-v3-latin-700.svg#Mulish') format('svg'); /* Legacy iOS */
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <footer class="footer wrap">
+        <img src="img/logo.svg" alt="logo" width="41" height="41">
+        <nav class="footer__navigation">
+            <ul class="footer__menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Destinations</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Partner</a></li>
+                <li><button class="footer__log" type=”button”>Login</button></li>
+                <li><button class="footer__reg" type=”button”>Register</button></li>
+            </ul>
+        </nav>
+    </footer>
+    <section class="finder">
+        <div class="finder__info">
+            <h1>Explore and Travel</h1>
+            <p>Holiday finder</p>
+            <form>
+                <select name="location" placeholder="location">
+                    <option value="amsterdam">Amsterdam</option>
+                    <option value="kiev">Kiev</option>
+                    <option value="krakov">Krakov</option>
+                    <option value="rome">Rome</option>
+                    <option value="poznan">Poznan</option>
+                </select>
+                <select name="activity">
+                    <option value="amsterdam">Amsterdam</option>
+                    <option value="kiev">Kiev</option>
+                    <option value="krakov">Krakov</option>
+                    <option value="rome">Rome</option>
+                    <option value="poznan">Poznan</option>
+                </select>
+            </form>
+            <form>
+                <div class="content">
+                  <h3 class="title">Описание 0 пункта</h3>
+              
+                  <input id="selectName0" type="radio" value="0" name="selectName" />
+                  <label for="selectName0">Описание 0 пункта</label>
+                  <input id="selectName1" type="radio" value="1" name="selectName" />
+                  <label for="selectName1">Описание 1 пункта</label>
+                  <input id="selectName2" type="radio" value="2" name="selectName" />
+                  <label for="selectName2">Описание 2 пункта</label>
+                </div>
+              </form>
+        </div>
+        <img src="img/bg-finder.png" alt="background">
+    </section>
+</body>
+</html>
